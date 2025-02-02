@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete-button {
+  margin-left: 30px;
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  margin: 20px;
+  outline: none;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.para {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .para {
+    font-size: 13px;
+    font-family: 'Roboto';
+  }
+}
+@media screen and (max-width: 767px) {
+  .delete-button {
+    color: #ff0b37;
+    border: 1px solid #ff0b37;
+    font-size: 10px;
+
+    outline: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+}
