@@ -1,39 +1,36 @@
 /* Write your CSS here */
-.list-container {
+.todo-item {
   list-style-type: none;
+  align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  padding-right: 30px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 10px;
 }
-.delete-button {
-  margin-left: 30px;
-  color: #ff0b37;
-  border: 1px solid #ff0b37;
-  margin: 20px;
-  outline: none;
-  border-radius: 6px;
-  background-color: #ffffff;
-  padding: 10px;
-}
-.para {
-  font-size: 25px;
-  font-family: 'Roboto';
-  color: #000000;
-}
-@media screen and (max-width: 767px) {
-  .para {
-    font-size: 13px;
-    font-family: 'Roboto';
-  }
-}
-@media screen and (max-width: 767px) {
-  .delete-button {
-    color: #ff0b37;
-    border: 1px solid #ff0b37;
-    font-size: 10px;
 
-    outline: none;
-    border-radius: 6px;
-    background-color: #ffffff;
+.delete-btn {
+  background-color: white;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .delete-btn {
+    font-size: 18px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 32px;
   }
 }
